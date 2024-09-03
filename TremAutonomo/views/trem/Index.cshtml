@@ -1,0 +1,22 @@
+@{
+    ViewBag.Title = "Controle de Trem";
+}
+
+<h2>Controle de Trem</h2>
+
+<form asp-action="ExecuteCommands" method="post">
+    <div>
+        <label for="commands">Comandos (ESQUERDA ou DIREITA):</label>
+        <input type="text" id="commands" name="commands" required />
+    </div>
+    <br />
+    <button type="submit">Executar</button>
+</form>
+
+@if (ViewBag.Result != null)
+{
+    <div>
+        <h3>@ViewBag.Result</h3>
+        <p>Posição final: @ViewBag.FinalPosition</p>
+    </div>
+}
