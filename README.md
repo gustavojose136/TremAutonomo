@@ -23,5 +23,4 @@ Este projeto implementa um sistema de controle para um trem autônomo que se mov
 
 - **Models**: Contém a lógica de domínio, incluindo a modelagem do trem e as regras de negócios relacionadas aos movimentos.
 - **Controllers**: Contém os controladores que gerenciam as requisições HTTP e coordenam a interação entre o modelo e as views.
-- **Views**: (Somente se aplicável para MVC) Contém as interfaces do usuário, que são renderizadas e enviadas ao cliente.
 - **Tests**: Contém os testes unitários para garantir a cobertura e a correção do código.
